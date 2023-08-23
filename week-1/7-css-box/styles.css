@@ -4,3 +4,12 @@
   border-radius: 4px;
   background: #fff;
 }
+
+/* .site-header__title{
+border: 1px solid red;
+} */
+
+.country {
+  margin: 5px;
+  /* border: 1px solid red; */
+}
