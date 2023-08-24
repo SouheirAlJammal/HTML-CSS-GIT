@@ -1,1 +1,32 @@
 /* Write your media queries and flexbox CSS below */
+@media (width > 480px) {
+  .site-header__nav {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (width>700px) {
+  .site-header {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .site-header__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (width>992px) {
+  .site-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .site-header__nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+}
